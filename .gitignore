@@ -16,6 +16,7 @@
 !/cli-runner
 !/e2e-tests
 !/scripts
+!/dist
 
 # Build outputs / local state inside allowed dirs
 .gradle/

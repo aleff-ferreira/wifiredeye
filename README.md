@@ -30,3 +30,14 @@ On first launch grant **Location / Nearby devices** permission; Android requires
 ## Layout
 
 `:core:model` (contracts) · `:core:designsystem` · `:core:rf-engine` (pure JVM RF/IE analytics) · `:core:wifi-platform` (Android Wi-Fi, haptics) · `:feature:{networks,proximity,spectrum,insights}` · `:app` (wiring) · `:cli-runner` · `:e2e-tests` (opaque-box suite; see `TEST_INFRA.md`). Architecture notes: `PROJECT.md`.
+
+## Ready-to-install APK
+
+`dist/a55-wifi-radar-debug.apk` (debug-signed, sideloadable). Download it from GitHub on the phone (or `adb install -r dist/a55-wifi-radar-debug.apk`).
+
+## Status / known limitations
+
+- App builds; `:app` smoke test, `:core:*`, `:feature:*` and `:cli-runner` unit tests pass, except 5 `:core:wifi-platform` test-fixture failures (Base64/IP fixtures in `ConnectedWifiAndRttTest`, `ReadinessMonitorAndIntentsTest`, `ScanResultExtractorAndCacheTest`).
+- Opaque-box `:e2e-tests` (479 cases): ~360 pass; ~119 still fail, mostly because the tests assume UI labels/flows (share-sheet intent, sort chip text, legend pill text) that differ from the shipped UI, plus a signed *release* APK that has not been built.
+- **Not yet verified on a physical Galaxy A55 5G** – only Robolectric/Compose JVM tests have been run.
+- `--include-dfs` CLI flag is accepted but does not yet change output.
