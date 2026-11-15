@@ -1,0 +1,30 @@
+# Allow-list: this repo lives in the VM home dir, so ignore everything not part of the project.
+/*
+!/.gitignore
+!/README.md
+!/PROJECT.md
+!/TEST_INFRA.md
+!/app
+!/build.gradle.kts
+!/settings.gradle.kts
+!/gradle
+!/gradle.properties
+!/gradlew
+!/gradlew.bat
+!/core
+!/feature
+!/cli-runner
+!/e2e-tests
+!/scripts
+
+# Build outputs / local state inside allowed dirs
+.gradle/
+build/
+**/build/
+.tmp/
+local.properties
+*.iml
+.idea/
+*.jks
+*.keystore
+.cxx/
