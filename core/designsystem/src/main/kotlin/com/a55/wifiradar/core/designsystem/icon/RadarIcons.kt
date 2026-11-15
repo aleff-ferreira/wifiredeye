@@ -10,7 +10,7 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 
 /**
- * Lightweight, zero-bloat bespoke vector glyphs for A55 WiFi Radar.
+ * Lightweight, zero-bloat bespoke vector glyphs for WIFIREDEYE.
  * Eliminates the 30MB material-icons-extended AAR while providing crisp domain icons.
  */
 object RadarIcons {

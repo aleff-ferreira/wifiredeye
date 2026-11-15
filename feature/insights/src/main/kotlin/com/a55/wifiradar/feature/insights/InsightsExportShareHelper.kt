@@ -27,7 +27,7 @@ object InsightsExportShareHelper {
         val sendIntent = Intent(Intent.ACTION_SEND).apply {
             type = payload.mimeType
             putExtra(Intent.EXTRA_TITLE, payload.fileName)
-            putExtra(Intent.EXTRA_SUBJECT, "A55 WiFi Radar — ${payload.format.displayLabel}")
+            putExtra(Intent.EXTRA_SUBJECT, "WIFIREDEYE — ${payload.format.displayLabel}")
             putExtra(Intent.EXTRA_TEXT, safeText)
         }
         return Intent.createChooser(sendIntent, "Share ${payload.format.displayLabel}").apply {

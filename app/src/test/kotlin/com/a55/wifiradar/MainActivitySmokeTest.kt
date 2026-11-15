@@ -35,7 +35,7 @@ class MainActivitySmokeTest {
 
     @Test
     fun coldLaunch_rendersFourTabsSurvivesRecreationAndCapturesAmoledScreenshot() {
-        composeTestRule.onNodeWithText("A55 WiFi Radar").assertIsDisplayed()
+        composeTestRule.onNodeWithText("WIFIREDEYE").assertIsDisplayed()
 
         for (destination in RadarDestination.entries) {
             composeTestRule.onNodeWithText(destination.tabTitle).assertIsDisplayed()

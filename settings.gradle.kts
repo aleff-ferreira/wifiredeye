@@ -20,7 +20,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "a55-wifi-radar"
+rootProject.name = "wifiredeye"
 
 include(":core:model")
 include(":core:designsystem")

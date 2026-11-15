@@ -64,7 +64,7 @@
 #
 ##############################################################################
 
-# Fallback environment defaults for A55 WiFi Radar (zero local.properties required)
+# Fallback environment defaults for WIFIREDEYE (zero local.properties required)
 export JAVA_HOME="${JAVA_HOME:-/usr/lib/jvm/java-17-openjdk-amd64}"
 export ANDROID_HOME="${ANDROID_HOME:-/home/antigravity/.android-sdk}"
 export ANDROID_SDK_ROOT="${ANDROID_SDK_ROOT:-/home/antigravity/.android-sdk}"

@@ -128,7 +128,7 @@ class FakeInsightsWifiRadarRepository(
         }
         val content = when (format) {
             ExportFormat.MARKDOWN -> buildString {
-                appendLine("# A55 WiFi Radar Diagnostic Report")
+                appendLine("# WIFIREDEYE Diagnostic Report")
                 appendLine("- Health Score: ${health.overallScore0To100 ?: "Waiting"}")
                 appendLine("- MAC Redacted: $redactMacs")
                 snapshot.radios.forEach { r ->

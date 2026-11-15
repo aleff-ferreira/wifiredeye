@@ -888,7 +888,7 @@ internal fun buildPlainEnglishNetworkSummary(
     val title = NetworksProjector.radioDisplayTitle(radio)
     val normBssid = MacAddressUtils.normalizeBssid(radio.bssid)
     return buildString {
-        appendLine("A55 WiFi Radar — Network Diagnostic Summary")
+        appendLine("WIFIREDEYE — Network Diagnostic Summary")
         appendLine("Network: $title")
         if (!radio.customNickname.isNullOrBlank()) {
             val rawSsid = if (radio.ssid.isEffectivelyHidden()) {

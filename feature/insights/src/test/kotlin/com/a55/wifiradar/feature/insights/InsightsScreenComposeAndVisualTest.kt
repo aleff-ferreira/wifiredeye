@@ -335,7 +335,7 @@ class InsightsScreenComposeAndVisualTest {
         assertEquals(Intent.ACTION_SEND, mdSend!!.action)
         assertEquals("text/markdown", mdSend.type)
         val mdExtraText = mdSend.getStringExtra(Intent.EXTRA_TEXT).orEmpty()
-        assertTrue(mdExtraText.contains("# A55 WiFi Radar Diagnostic Report"))
+        assertTrue(mdExtraText.contains("# WIFIREDEYE Diagnostic Report"))
         assertTrue(mdExtraText.contains("AA:BB:CC:XX:XX:02"))
         assertFalse(mdExtraText.contains("AA:BB:CC:11:22:02"))
 

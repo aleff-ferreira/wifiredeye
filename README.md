@@ -1,4 +1,4 @@
-# A55 WiFi Radar
+# WIFIREDEYE
 
 Native Android (Kotlin / Jetpack Compose) Wi-Fi scanner, signal-strength proximity meter and RF analytics app, tuned for the Samsung Galaxy A55 5G (120 Hz Super AMOLED, Android 14/15).
 
@@ -33,7 +33,7 @@ On first launch grant **Location / Nearby devices** permission; Android requires
 
 ## Ready-to-install APK
 
-`dist/a55-wifi-radar-debug.apk` (debug-signed, sideloadable). Download it from GitHub on the phone (or `adb install -r dist/a55-wifi-radar-debug.apk`).
+`dist/wifiredeye-debug.apk` (debug-signed, sideloadable). Download it from GitHub on the phone (or `adb install -r dist/wifiredeye-debug.apk`).
 
 ## Status / known limitations
 

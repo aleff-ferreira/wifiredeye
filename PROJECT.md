@@ -1,9 +1,9 @@
-# Project: A55 WiFi Radar — Wireless Network Scanner, Signal Proximity Meter & RF Analytics for Samsung Galaxy A55 5G
+# Project: WIFIREDEYE — Wireless Network Scanner, Signal Proximity Meter & RF Analytics for Samsung Galaxy A55 5G
 
 ## Architecture
 
 ### 1. Product Vision & Target Hardware Profile
-**A55 WiFi Radar** (`applicationId = "com.a55.wifiradar"`) is a native Android application engineered specifically for the **Samsung Galaxy A55 5G** (`SM-A556B / SM-A556E / SM-A5560`, Exynos 1480 `arm64-v8a`, Xclipse 530 GPU, 6.6" FHD+ `1080×2340` `19.5:9` **120Hz Super AMOLED** with Infinity-O top-center camera punch-hole, X-axis LRA haptic motor, Dual-Band Wi-Fi 6 `802.11a/b/g/n/ac/ax` HE80 `2×2 MIMO`, running Android 14 One UI 6.1 / Android 15 One UI 7+).
+**WIFIREDEYE** (`applicationId = "com.a55.wifiradar"`) is a native Android application engineered specifically for the **Samsung Galaxy A55 5G** (`SM-A556B / SM-A556E / SM-A5560`, Exynos 1480 `arm64-v8a`, Xclipse 530 GPU, 6.6" FHD+ `1080×2340` `19.5:9` **120Hz Super AMOLED** with Infinity-O top-center camera punch-hole, X-axis LRA haptic motor, Dual-Band Wi-Fi 6 `802.11a/b/g/n/ac/ax` HE80 `2×2 MIMO`, running Android 14 One UI 6.1 / Android 15 One UI 7+).
 
 It delivers four tightly unified, zero-documentation capabilities:
 1. **Complete Wireless Network Detection (`Networks` Tab)**: Detects every wireless network in reach across 2.4 / 5 / 6 GHz (plus out-of-band 6 GHz discovery via 2.4/5 GHz Reduced Neighbor Report `IE 201` on dual-band hardware), hidden null-byte/empty SSIDs, grouped Mesh/Multi-BSSID radios vs individual BSSID view, offline IEEE OUI vendor + WPS router model identification, custom BSSID nicknames, connected-network live spotlight, and instant search/filter/sort.

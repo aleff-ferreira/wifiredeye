@@ -62,7 +62,7 @@ fun RadarScaffold(
     selectedTab: RadarDestination,
     onSelectTab: (RadarDestination) -> Unit,
     modifier: Modifier = Modifier,
-    title: String = "A55 WiFi Radar",
+    title: String = "WIFIREDEYE",
     topStatusSlot: (@Composable () -> Unit)? = null,
     content: @Composable (PaddingValues) -> Unit,
 ) {

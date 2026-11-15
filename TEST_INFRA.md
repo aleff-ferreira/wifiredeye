@@ -2,7 +2,7 @@
 
 ## 1. Purpose, Scope & Zero-Import Opaque-Box Philosophy
 
-`:e2e-tests` is the authoritative, requirement-driven **opaque-box End-to-End (E2E) verification suite** for **A55 WiFi Radar** (`applicationId = "com.a55.wifiradar"`), engineered specifically for the **Samsung Galaxy A55 5G** (`SM-A556B / SM-A556E / SM-A5560`, Exynos 1480 `arm64-v8a`, `1080×2340` `19.5:9` FHD+ 120Hz Super AMOLED, dual-band Wi-Fi 6 `802.11a/b/g/n/ac/ax` HE80 `2×2 MIMO`, X-axis LRA haptic motor, Android 14/15 One UI).
+`:e2e-tests` is the authoritative, requirement-driven **opaque-box End-to-End (E2E) verification suite** for **WIFIREDEYE** (`applicationId = "com.a55.wifiradar"`), engineered specifically for the **Samsung Galaxy A55 5G** (`SM-A556B / SM-A556E / SM-A5560`, Exynos 1480 `arm64-v8a`, `1080×2340` `19.5:9` FHD+ 120Hz Super AMOLED, dual-band Wi-Fi 6 `802.11a/b/g/n/ac/ax` HE80 `2×2 MIMO`, X-axis LRA haptic motor, Android 14/15 One UI).
 
 ### Strict Zero-Import Enforcement (Dual-Layer Guardrail)
 `:e2e-tests` treats the entire production codebase (`:core:*`, `:feature:*`, `:cli-runner`, and `:app`) as a sealed black box:

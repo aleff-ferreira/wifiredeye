@@ -567,7 +567,7 @@ private fun hexDigitToInt(c: Char): Int = when (c) {
 private fun printUsage(out: PrintStream) {
     out.println(
         """
-        A55 WiFi Radar Diagnostic CLI
+        WIFIREDEYE Diagnostic CLI
         Usage:
           cli-runner analyze --input <path|-> --format <json|markdown> [options]
 

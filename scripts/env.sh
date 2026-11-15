@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Idempotent environment setup for A55 WiFi Radar (OpenJDK 17 + Android SDK 35 + Dual-CA Truststore)
+# Idempotent environment setup for WIFIREDEYE (OpenJDK 17 + Android SDK 35 + Dual-CA Truststore)
 
 export JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64"
 export ANDROID_HOME="/home/antigravity/.android-sdk"
